@@ -1,0 +1,31 @@
+@import "menu.scss";
+
+.body {
+    background-color: gray;
+}
+
+h1 {
+    color:black;
+    font-size: 50px;
+    margin: 200px 0 50px 0;
+    text-align: center;
+    
+}
+
+h2 {
+    color:black;
+    size: 40px;
+    text-align:center;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(20, 10vh);
+    
+}
+
+.section {
+    grid-column: 2 / 10;
+    border: solid red 3px;
+
+}
